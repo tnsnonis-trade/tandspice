@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T & Spices L.L.C.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              tea: {
+                50: '#f2fcf5',
+                100: '#e1f8e8',
+                200: '#c3eed2',
+                300: '#94e0b3',
+                400: '#5bcb8e',
+                500: '#34b06f',
+                600: '#258f58',
+                700: '#1f7248',
+                800: '#1c5b3c',
+                900: '#184b33',
+              },
+              spice: {
+                50: '#faf7f5',
+                100: '#f3ede7',
+                200: '#e8dbd0',
+                300: '#d7bea9',
+                400: '#c39d7f',
+                500: '#b0805a',
+                600: '#a36d4e',
+                700: '#885842',
+                800: '#704a3b',
+                900: '#5b3d33',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap');
+      
+      /* Custom scrollbar hiding but keeping functionality */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      
+      section {
+        flex: 0 0 100vw;
+        height: 100vh;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-spice-50 text-stone-800 font-sans antialiased h-screen overflow-hidden">
+    <div id="root" class="h-full"></div>
+    <!-- Entry point for the build system -->
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
