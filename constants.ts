@@ -10,13 +10,13 @@ export const PRODUCTS: Product[] = [
     id: 1,
     name: "Premium Tea Collection",
     description: "Hand-picked high-grown tea leaves with a delicate aroma.",
-    image: "https://images.unsplash.com/photo-1612706965205-7570f423e339?auto=format&fit=crop&q=80&w=1600"
+    image: "https://images.unsplash.com/photo-1730702969485-d91642ae9b8e?auto=format&fit=crop&q=80&w=1600"
   },
   {
     id: 2,
     name: "Organic Black Pepper",
     description: "Bold and pungent peppercorns sun-dried to perfection.",
-    image: "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&q=80&w=1600"
+    image: "https://images.unsplash.com/photo-1706707250980-194236fefd04?auto=format&fit=crop&q=80&w=1600"
   },
   {
     id: 3,
