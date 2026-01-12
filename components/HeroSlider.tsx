@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react';
 import { PRODUCTS } from '../constants';
 
 const HeroSlider: React.FC = () => {
-  const displayProducts = PRODUCTS.slice(0, 4);
+  const displayProducts = PRODUCTS.slice(0, 3);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextSlide = useCallback(() => {
