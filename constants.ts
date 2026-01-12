@@ -22,19 +22,7 @@ export const PRODUCTS: Product[] = [
     id: 3,
     name: "True Cinnamon Sticks",
     description: "Sweet, aromatic cinnamon harvested from the finest bark.",
-    image: "https://images.unsplash.com/photo-1513222442596-f94791e84310?auto=format&fit=crop&q=80&w=1600"
-  },
-  {
-    id: 4,
-    name: "Green Cardamom Pods",
-    description: "Queen of spices, known for its intense flavor and fragrance.",
-    image: "https://images.unsplash.com/photo-1511252810826-a669143b60bf?auto=format&fit=crop&q=80&w=1600"
-  },
-  {
-    id: 5,
-    name: "Exotic Chai Blend",
-    description: "A robust mix of tea and traditional spices for the perfect brew.",
-    image: "https://images.unsplash.com/photo-1563911892437-1feda0179e1b?auto=format&fit=crop&q=80&w=1600"
+    image: "https://unsplash.com/photos/brown-wooden-sticks-in-grayscale-photography-nnGBN0wjFaI"
   }
 ];
 
