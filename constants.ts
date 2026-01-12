@@ -10,7 +10,7 @@ export const PRODUCTS: Product[] = [
     id: 1,
     name: "Premium Tea Collection",
     description: "Hand-picked high-grown tea leaves with a delicate aroma.",
-    image: "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?auto=format&fit=crop&q=80&w=1600"
+    image: "https://images.unsplash.com/photo-1612706965205-7570f423e339?auto=format&fit=crop&q=80&w=1600"
   },
   {
     id: 2,
